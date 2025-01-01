@@ -10,7 +10,8 @@
   "dependencies": {
     "@elysiajs/swagger": "^1.1.6",
     "elysia": "latest",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.8.3",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "bun-types": "latest"
