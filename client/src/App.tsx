@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./Home.page";
 import { Icon } from "@iconify/react";
+import BookPage from "./features/book/BookPage";
 
 function App() {
   return (
@@ -13,8 +13,7 @@ function App() {
       <main className="p-2">
         <BrowserRouter>
           <Routes>
-              <Route path="/" element={<HomePage/>} />
-              <Route path="/1" element={<h1>Test</h1>} />
+              <Route path="/" element={<BookPage/>} />
           </Routes>
         </BrowserRouter>
       </main>
